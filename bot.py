@@ -11,7 +11,6 @@ keybord.add.InlineKeyboardButton("لبن", callback_data=2)
 @bot.message_handler(command=[start])
 
 def send_message(message):
-
-bot.send_message(chat_id=message.chat.id, text="اختر شخصية", reply_markup=keyboard)
+  bot.send_message(chat_id=message.chat.id, text="اختر شخصية", reply_markup=keyboard)
 
 bot.polling()
