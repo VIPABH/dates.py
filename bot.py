@@ -1,6 +1,6 @@
 from telebot import TeleBot, types
 
-bot = telebot.TeleBot("8155824086:AAEchPPJYWsBG1yESto-dauVkuWklAG4OGk")
+bot = telebot.TeleBot('8155824086:AAEchPPJYWsBG1yESto-dauVkuWklAG4OGk')
 
 keybord = types.InlineKeyboardMarkup()
 
