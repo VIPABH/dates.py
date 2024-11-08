@@ -2,7 +2,7 @@ import telebot
 
 bot = telebot.TeleBot('8155824086:AAEchPPJYWsBG1yESto-dauVkuWklAG4OGk')
 
-keybord = types.InlineKeyboardMarkup()
+keybord = type.InlineKeyboardMarkup()
 
 keybord.add.InlineKeyboardButton("ابن هاشم", callback_data=1)
 
