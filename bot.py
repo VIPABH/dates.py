@@ -2,7 +2,7 @@ import random
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = telebot.TeleBot('6387632922:AAFHZLAxufgGRByVOxpb2FEhJNhhwcKakj8')
+bot = telebot.TeleBot('7443415087:AAFWXh5g-x1U_DWjlpyY23wd6Zs-YQTlNTQ')
 
 game_active = False
 number = None
