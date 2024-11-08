@@ -2,7 +2,8 @@ import random
 import telebot
 
 bot = telebot.TeleBot('7443415087:AAFWXh5g-x1U_DWjlpyY23wd6Zs-YQTlNTQ')
-    questions = [
+   
+questions = [
     "شلون تعمل هالشي؟",
     "شلون تقضي وقتك بالفراغ؟",
     "شلون تتحكم بالضغط؟",
