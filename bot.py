@@ -241,7 +241,7 @@ questions = [
 ]
 
 
-@bot.message_handler(func=lambda message: message.text in ['كتويت'])
+@bot.message_handler(func=lambda message: message.text in ['كت', 'كتويت'])
 def send_random_question(message):
     random_question = random.choice(questions)
     bot.reply_to(message, random_question)
