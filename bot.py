@@ -2,7 +2,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # قم بإنشاء بوت جديد باستخدام التوكن الخاص بك
-bot = telebot.TeleBot("7273443857:AAFVj4Miag_IBayHn0uzYNlQz2iGD8goEz8")
+bot = telebot.TeleBot("8155824086:AAEchPPJYWsBG1yESto-dauVkuWklAG4OGk")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
