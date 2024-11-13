@@ -5,6 +5,9 @@ import telebot
 TOKEN = "7443415087:AAFWXh5g-x1U_DWjlpyY23wd6Zs-YQTlNTQ"
 bot = telebot.TeleBot(TOKEN)
 
+@bot.message_handler(commands=['start'])
+def handle_start(message):
+    bot.reply_to(message, " اهلا حياك الله ,ارسل كلمه `كتويت` لبدء اللعبة")
 
 
 questions = [
