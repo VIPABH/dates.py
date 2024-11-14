@@ -7,7 +7,14 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def handle_start(message):
-    bot.reply_to(message, " اهلا حياك الله ,ارسل كلمه `كتويت` لبدء اللعبة", parse_mode='Markdown')
+    bot.reply_to(
+        message,
+        "أهلاً حياك الله! \n"
+        "• أرسل `كتويت` لبدء أسئلة الكت تويت. \n"
+        "• أرسل `/ارقام` أو `/num` لبدء لعبة الأرقام.\n\n"
+        " استمتع! 🎉",
+        parse_mode='Markdown'
+    )
 
 
 questions = [
