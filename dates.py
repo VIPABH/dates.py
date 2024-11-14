@@ -19,5 +19,9 @@ def calculate_time_remaining():
             print("لقد انتهى العد التنازلي.")
 
         time.sleep(3600) 
-if name == "main":
-    calculate_time_remaining()
+
+while True:
+    try:
+        bot.polling(none_stop=True)
+    except Exception as e:
+        print(f"حدث خطأ: {e}")
