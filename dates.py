@@ -3,7 +3,7 @@ import datetime
 
 bot = telebot.TeleBot("7308514832:AAGvo7qBVMG4paaulYXg4-MPQESeqAReJhs")
 
-target_date = datetime.datetime(2024, 6, 28)
+target_date = datetime.datetime(2025, 6, 28)
 
 def calculate_time_remaining():
     current_date = datetime.datetime.now()
