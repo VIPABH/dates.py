@@ -1,6 +1,6 @@
 import telebot
 import datetime
-bot = telebot.TeleBot("7308514832:AAGvo7qBVMG4paaulYXg4-MPQESeqAReJhs")
+bot = telebot.TeleBot("7308514832:AAGPsw3miAP7FqIk1wFk0lGItjysMBdFtus")
 
 target_date = datetime.datetime(2025, 6, 28)
 
